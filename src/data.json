@@ -12,8 +12,8 @@
     }
   },
   "core": {
-    "section": "Bitcoin Core",
-    "description": "Basic parameters regarding Bitcoin Core node operation.",
+    "section": "BTG Core",
+    "description": "Basic parameters regarding BTG Core node operation.",
     "alertnotify": {
       "name": "Alert Notification",
       "description": "Execute command when an alert (or long fork) is received (%s in cmd is replaced by message)",
@@ -42,7 +42,7 @@
     "conf": {
       "name": "Config File Location",
       "description": "Specify the location of the configuration file. To use non-default location, create a default location config file containing this setting.",
-      "default": "$BASE/bitcoin.conf"
+      "default": "$BASE/bitcoingold.conf"
     },
     "daemon": {
       "name": "Daemon Mode",
@@ -121,7 +121,7 @@
     "pid": {
       "name": "PID file",
       "description": "Specify process ID file name. Ignored for Windows.",
-      "default": "bitcoind.pid"
+      "default": "bgoldd.pid"
     },
     "prune": {
       "name": "Prune Old Blocks",
@@ -355,7 +355,7 @@
   },
   "debug": {
     "section": "Debugging & Testing",
-    "description": "Features that help developers who are testing changes to Bitcoin Core.",
+    "description": "Features that help developers who are testing changes to BTG Core.",
     "uacomment": {
       "name": "User Agent Comment",
       "description": "Append comment to the user agent string.",
@@ -612,7 +612,7 @@
     },
     "testnet": {
       "name": "Testnet",
-      "description": "Run this node on the Bitcoin Test Network.",
+      "description": "Run this node on the BTG Test Network.",
       "default": 0
     },
     "regtest": {
@@ -746,7 +746,7 @@
     },
     "rpcauth": {
       "name": "RPC Auth",
-      "description": "Username and hashed password for JSON-RPC connections. The field <userpw> comes in the format: <USERNAME>:<SALT>$<HASH>. RPC clients connect using rpcuser=<USERNAME>/rpcpassword=<PASSWORD> arguments. You can generate this value with the ./share/rpcauth/rpcauth.py script in the Bitcoin Core repository. This option can be specified multiple times.",
+      "description": "Username and hashed password for JSON-RPC connections. The field <userpw> comes in the format: <USERNAME>:<SALT>$<HASH>. RPC clients connect using rpcuser=<USERNAME>/rpcpassword=<PASSWORD> arguments. You can generate this value with the ./share/rpcauth/rpcauth.py script in the BTG Core repository. This option can be specified multiple times.",
       "default": ""
     },
     "rpcport": {

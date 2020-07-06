@@ -9,7 +9,7 @@ to harness the full security features of the protocol and operate without trusti
 there are over 140 configuration options and more are added with each release. This generator is meant
 to expose and explain all of those options so that any user can make the most of the flexibility available to them.
 
-This generator is based on the excellent work by jlopp on the Bitcoin Core Config Generator.
+This generator is based on the excellent work by [jlopp](https://github.com/jlopp) on the Bitcoin Core Config Generator.
 
 Features
 --------

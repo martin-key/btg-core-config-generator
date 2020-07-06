@@ -24,7 +24,7 @@ export function localPath (platform) {
       '%UserProfile%',
       'AppData',
       'Roaming',
-      'Bitcoin'
+      'Bitcoingold'
     ], platform);
   }
 
@@ -37,7 +37,7 @@ export function basePath (platform) {
       '%UserProfile%',
       'AppData',
       'Roaming',
-      'Bitcoin'
+      'Bitcoingold'
     ], platform);
   }
 
@@ -46,12 +46,12 @@ export function basePath (platform) {
       '$HOME',
       'Library',
       'Application Support',
-      'Bitcoin'
+      'Bitcoingold'
     ], platform);
   }
 
   return joinPath([
     '~',
-    '.bitcoin'
+    '.bitcoingold'
   ], platform);
 }
