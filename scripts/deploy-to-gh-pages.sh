@@ -2,7 +2,7 @@
 # See https://medium.com/@nthgergo/publishing-gh-pages-with-travis-ci-53a8270e87db
 set -o errexit
 
-SOURCE_BRANCH="master"
+SOURCE_BRANCH="BTG"
 TARGET_BRANCH="gh-pages"
 GIT_USER_EMAIL="admin@travis-ci.org"
 GIT_USER_NAME="Travis CI"
