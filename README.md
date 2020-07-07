@@ -1,5 +1,7 @@
 # BTG Core Config Generator
 
+[![Build Status](https://api.travis-ci.org/MentalNomad/BTG-core-config-generator.svg?branch=BTG)](https://travis-ci.org/jlopp/bitcoin-core-config-generator) An online generator is [available here](https://mentalnomad.github.io/BTG-core-config-generator/) 
+
 What is this?
 -------------
 
@@ -9,7 +11,7 @@ to harness the full security features of the protocol and operate without trusti
 there are over 140 configuration options and more are added with each release. This generator is meant
 to expose and explain all of those options so that any user can make the most of the flexibility available to them.
 
-This generator is based on the excellent work by [jlopp](https://github.com/jlopp) on the Bitcoin Core Config Generator.
+This generator is based on the excellent work by [jlopp](https://github.com/jlopp), [tomusdrw](https://github.com/tomusdrw) and others on the [Bitcoin Core Config Generator](https://github.com/jlopp/bitcoin-core-config-generator).
 
 Features
 --------
