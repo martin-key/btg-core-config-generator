@@ -30,4 +30,4 @@ git init
 git add .
 git commit -m "$COMMIT_MSG"
 
-git push -f --quiet "https://${GITHUB_TOKEN}@github.com/${REPO_SLUG}.git" $SOURCE_BRANCH:$TARGET_BRANCH > /dev/null 2>&1
+git push -f --quiet "https://${TRAVIS}@github.com/${REPO_SLUG}.git" $SOURCE_BRANCH:$TARGET_BRANCH > /dev/null 2>&1
