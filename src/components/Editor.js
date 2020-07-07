@@ -8,6 +8,7 @@ import Select from './controls/Select';
 import { localPath, basePath, joinPath } from '../system';
 import data from '../data.json';
 
+/*
 const styles = {
   visible: {},
   hidden: {
@@ -15,6 +16,7 @@ const styles = {
     height: 0
   }
 };
+*/
 
 class Editor extends Component {
   static propTypes = {
@@ -263,7 +265,7 @@ class Editor extends Component {
         description={description}
         disabled={!isEnabled}
         large
-        >
+      >
         {data[section][prop].values.map(val).map(value => {
           const id = `${configMode}_${section}_${prop}_${value.value}`;
 
@@ -276,7 +278,7 @@ class Editor extends Component {
                 checked={current.indexOf(value.value) !== -1}
                 disabled={!isEnabled}
                 onChange={change(value.value)}
-                />
+              />
               <span className='mdl-switch__label'>{value.name}</span>
             </label>
           );
@@ -397,7 +399,7 @@ class Editor extends Component {
         title={data[section][prop].name}
         description={description}
         disabled={!isEnabled}
-        >
+      >
         <label className='mdl-switch mdl-js-switch' htmlFor={id}>
           <input
             type='checkbox'
@@ -475,7 +477,7 @@ export function fillDescription (description, value, key) {
         }
       }
       // remove trailing comma
-      formatted = formatted.replace(/(,$)/g, "");
+      formatted = formatted.replace(/(,$)/g, '');
       return formatted;
     }
     // If there is a single value and it exists in the description mapping, return it
