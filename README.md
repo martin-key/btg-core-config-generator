@@ -1,6 +1,7 @@
 # BTG Core Config Generator
 
-[![Build Status](https://api.travis-ci.org/MentalNomad/BTG-core-config-generator.svg?branch=BTG)](https://travis-ci.org/jlopp/bitcoin-core-config-generator) An online generator is [available here](https://mentalnomad.github.io/BTG-core-config-generator/) 
+[![Build Status](https://api.travis-ci.org/MentalNomad/BTG-core-config-generator.svg?branch=BTG)](https://travis-ci.org/MentalNomad/BTG-core-config-generator) 
+An online generator is [available here](https://mentalnomad.github.io/BTG-core-config-generator/) 
 
 What is this?
 -------------
