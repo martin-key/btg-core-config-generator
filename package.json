@@ -1,8 +1,8 @@
 {
-  "name": "BTG-core-config-generator",
+  "name": "btg-core-config-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://MentalNomad.github.io/BTG-core-config-generator",
+  "homepage": "http://MentalNomad.github.io/btg-core-config-generator",
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "react-scripts": "0.4.3",

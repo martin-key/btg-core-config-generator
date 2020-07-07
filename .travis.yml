@@ -6,7 +6,7 @@ deploy:
 
 env:
   global:
-    - REPO_SLUG=MentalNomad/BTG-core-config-generator
+    - REPO_SLUG=MentalNomad/btg-core-config-generator
     - secure: "QWLpkNWg5j4+p14hpawmdhYuhgW1sivnArFTeRmtDKqkhOrzPju2+k0g0+xz8EZ/LOGBN1nWbghTmfYEwTNAQlkmyc8zC/BizmA3+xhx1TC8xm5u5H+q72fcg25vg5mwjYHKUeQfampbXukoeaKnXqFujTb8UFplBWgUTSDYhIxGGPxBhr6kvU08Emb3KG8XDi7MPyWM4ZTP6U4LexcDMxBu4NqxoRuRA/ovHpAudzDbnkzaKyr+ehLzUBRw+yycw09qwVVKqkhx0mX79z+GReOsI1t8oHt1hNRrkKacct0ZsnoBIzNqdm6grQ8zAs3Vib4fp8fMCfNyeS1H396Ms51mx8Rb7cs5iD8EXckjIbeeziv8p5eAE3ndxWu0gqWYQodb+jgJpxjJkGKVwuTxai53RVplGfhxdNSAO3jpuVVT4tn/4xZA8gzSaEAl686iebAIMpa7gJOs3smg5cT/9jUJNCSEINqgwthycN6ExmP/a2oYW49QiJzXRUGHMPtx6H9cdFcuFDnTOQ4+SqZem3/GzczBbcSBUcgvC736toadKBQ1l0xRUrFS9IzqnjVPTDjho8S0/Qoyi1vRaPF8OLt0EAECPTTgOZTiI38xh9WINF5FMWeRHETjKKczssxHOtJIFCb/1CADM+EscykGSz9UuU6v6BXECNDmku2EsmQ="
     
 script:
